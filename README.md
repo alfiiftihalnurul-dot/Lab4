@@ -142,8 +142,9 @@ Halaman About memakai kerangka layout yang sama dengan ````home.html```` (header
 2.**Keahlian:** daftar teknologi dalam bentuk label (````ul.skill-list```` dengan ````li```` berupa ````inline-block````).
 3.**Portfolio:** tiga ````div.box```` (memakai ulang class dari Bagian 2.9) berisi proyek-proyek praktikum.
 
-Sidebar berisi widget menu cepat dan keterangan website. CSS tambahan (````.info-table````, ````.skill-list````) berada di bagian akhir ````style.css````.
-![gambar11](ss/gambarabout.png)
+Sidebar berisi widget menu cepat dan keterangan website. CSS tambahan (````.info-table````, ````.skill-list````) berada di bagian akhir ````style.css````
+
+![gambar11](ss/gambar_about.png)
 ## Tugas 2 — Layout menu Contact (kontak.html)
 Halaman Kontak memakai kerangka yang sama dengan menu **Kontak** sebagai ````active````. Isi ````#main```` berupa formulir dengan kolom:
 
@@ -156,7 +157,7 @@ Halaman Kontak memakai kerangka yang sama dengan menu **Kontak** sebagai ````act
 |Pesan|````textarea````|wajib diisi|
 |Tombol|````button type="submit"```` dan ````type="reset"````|Kirim dan Reset|
 Setiap ````input```` dipasangkan dengan ````<label for="...">```` agar saat label diklik, kolomnya ikut aktif. Styling memakai ````.form-group````, ````.form-control```` (lebar 100%, border, efek ````:focus````), dan ````.btn-primary.```` Sidebar berisi info kontak dan menu cepat.
-![gambarterakhir](ss/gambarkotak.png)
+![gambarterakhir](ss/gambar_kotak.png)
 ## Kesimpulan
 Semua elemen HTML merupakan box (margin, border, padding, content) yang dapat diatur ukurannya dan posisinya dengan CSS.
 float memungkinkan elemen berdampingan, sedangkan clear (dan teknik clearfix :after) dibutuhkan agar elemen sesudahnya tidak ikut mengambang dan tinggi pembungkusnya tetap benar.
