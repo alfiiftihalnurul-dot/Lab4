@@ -60,6 +60,7 @@ css
     float: none;
 }
 ````
+![gambar3](ss/gambar3(output).png)
 ````clear: left```` membuat ````div4```` turun ke bawah elemen yang float ke kiri, sehingga tampil pada baris baru dengan lebar penuh.
 ## Eksperimen nilai clear lainnya:
 |Nilai |	Hasil yang diamati|
@@ -81,3 +82,23 @@ Struktur halaman disusun dengan elemen semantik HTML5:
 |````<section id="main">````|	Konten utama|
 |````<aside id="sidebar">````|	Konten pendamping (sidebar)|
 |````<footer>````|	Footer halaman|
+## 2.3 CSS dasar: font, reset, body, container, header
+Pada ````style.css```` ditambahkan:
+````@import```` Google Font Open Sans.
+**Reset CSS** ````* { margin: 0; padding: 0; }```` untuk menghilangkan margin dan padding bawaan browser agar tampilan konsisten.
+````body```` dengan font Open Sans dan warna teks 
+````#5a5a5a````.
+````#container```` selebar ````980px````, ````margin: 0 auto```` agar berada di tengah halaman, dan ````box-shadow```` sebagai bayangan tipis.
+````header```` dengan ````padding: 20px```` dan ````header h1```` berwarna abu-abu 
+````#b5b5b5````.
+
+Catatan: URL pada ````@import url('...')```` harus ditulis dalam satu baris. Jika terpotong ke baris baru, VS Code menandainya sebagai error dan font tidak termuat.
+![gambarrr](ss/gambar4.png)
+## 2.4 Navigasi
+css
+````nav { display: block; background-color: #1f5faa; }
+nav a { padding: 15px 30px; display: inline-block; color: #fff;
+        font-size: 14px; text-decoration: none; font-weight: bold; }
+nav a.active, nav a:hover { background-color: #2b83ea; }````
+Link dibuat inline-block agar tersusun mendatar tetapi tetap bisa diberi padding. Class active dan efek :hover memberi warna lebih terang pada menu yang sedang dipilih.
+![gambar5](ss/gambar5(output).png)
