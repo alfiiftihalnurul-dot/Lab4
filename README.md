@@ -72,3 +72,12 @@ css
 Dibuat folder ````lab4_layout```` yang berisi ````home.html```` dan ````style.css````. File home.html memuat kerangka HTML dengan ````<link rel="stylesheet" href="style.css">```` di ````<head>```` dan sebuah ````<div id="container">```` di dalam <body> sebagai pembungkus seluruh halaman.
 ## 2.2 Kerangka layout dengan semantic element
 Struktur halaman disusun dengan elemen semantik HTML5:
+|Tag|	Fungsi|
+|:----|:----|
+|````<header>````|	Header halaman (judul situs)|
+|````<nav>````|	Kumpulan link navigasi|
+|````<section id="hero">````|	Panel utama (hero panel)|
+|````<section id="wrapper">````|	Pembungkus area konten dan sidebar|
+|````<section id="main">````|	Konten utama|
+|````<aside id="sidebar">````|	Konten pendamping (sidebar)|
+|````<footer>````|	Footer halaman|
