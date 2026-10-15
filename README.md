@@ -120,7 +120,8 @@ Sidebar diisi dua ````div.widget-box:```` satu berisi daftar link ````(ul)````, 
 ![gambar7](ss/gambar7.png)
 ## 2.8 Footer
 css
-````footer { clear: both; background-color: #1d1d1d; padding: 20px; color: #eee; }
+````
+footer { clear: both; background-color: #1d1d1d; padding: 20px; color: #eee; }
 ````
 ````clear: both```` wajib ada agar footer berada di bawah ````#main```` dan ````#sidebar```` yang sama-sama float. Tanpa itu, footer akan naik dan tertimpa kedua area tersebut.
 ## 2.9 Elemen pada main content (box)
