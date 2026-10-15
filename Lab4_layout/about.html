@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Layout Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Layout Sederhana</h1>
+        </header>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="about.html" class="active">About</a>
+            <a href="kontak.html">Kontak</a>
+        </nav>
+
+        <section id="hero">
+            <h1>About</h1>
+            <p>Halaman ini berisi deskripsi singkat tentang pembuat website, keahlian yang sedang dipelajari, serta portfolio dari tugas-tugas praktikum Pemrograman Web.</p>
+        </section>
+
+        <section id="wrapper">
+            <section id="main">
+                <article class="entry">
+                    <h2>Deskripsi</h2>
+                    <img src="https://dummyimage.com/150/7b8a70/fff.png" alt="Foto profil">
+                    <p>Halo, saya Alfi Iftihal Nurul Afiat, mahasiswa Teknik Informatika di Universitas Pelita Bangsa. Saat ini saya sedang belajar membuat website dengan HTML dan CSS melalui praktikum Pemrograman Web. Website ini dibuat sebagai latihan menyusun layout menggunakan box element, float, dan semantic element HTML5.</p>
+                    <table class="info-table">
+                        <tr><td>Nama</td><td>Alfi Iftihal Nurul Afiat</td></tr>
+                        <tr><td>NIM</td><td>312510041</td></tr>
+                        <tr><td>Kelas</td><td>I251D</td></tr>
+                        <tr><td>Prodi</td><td>Teknik Informatika</td></tr>
+                    </table>
+                </article>
+
+                <hr class="divider" />
+
+                <article class="entry">
+                    <h2>Keahlian</h2>
+                    <p>Teknologi yang sedang saya pelajari dan gunakan pada praktikum:</p>
+                    <ul class="skill-list">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Git &amp; GitHub</li>
+                        <li>VS Code</li>
+                    </ul>
+                </article>
+
+                <hr class="divider" />
+
+                <article class="entry">
+                    <h2>Portfolio</h2>
+                    <div class="row">
+                        <div class="box">
+                            <img src="https://dummyimage.com/120/db7d25/fff.png" alt="" class="image-circle">
+                            <h3>Biodata</h3>
+                            <p>Halaman biodata sederhana dari Praktikum 2 (HTML Lanjutan).</p>
+                            <a href="#" class="btn btn-default">View detail</a>
+                        </div>
+                        <div class="box">
+                            <img src="https://dummyimage.com/120/3e73e6/fff.png" alt="" class="image-circle">
+                            <h3>Box Element</h3>
+                            <p>Latihan box element, float, dan clearfix dari Praktikum 4.</p>
+                            <a href="#" class="btn btn-default">View detail</a>
+                        </div>
+                        <div class="box">
+                            <img src="https://dummyimage.com/120/71e6d4/fff.png" alt="" class="image-circle">
+                            <h3>Layout Web</h3>
+                            <p>Layout website sederhana dengan header, menu, konten, dan sidebar.</p>
+                            <a href="home.html" class="btn btn-default">View detail</a>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <aside id="sidebar">
+                <div class="widget-box">
+                    <h3 class="title">Menu Cepat</h3>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="artikel.html">Artikel</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="kontak.html">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="widget-box">
+                    <h3 class="title">Tentang Website</h3>
+                    <p>Website ini dibuat untuk memenuhi tugas Praktikum 4: CSS Layout, Pemrograman Web, Universitas Pelita Bangsa.</p>
+                </div>
+            </aside>
+        </section>
+
+        <footer>
+            <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+        </footer>
+    </div>
+</body>
+</html>
