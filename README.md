@@ -101,4 +101,7 @@ nav a { padding: 15px 30px; display: inline-block; color: #fff;
         font-size: 14px; text-decoration: none; font-weight: bold; }
 nav a.active, nav a:hover { background-color: #2b83ea; }````
 Link dibuat inline-block agar tersusun mendatar tetapi tetap bisa diberi padding. Class active dan efek :hover memberi warna lebih terang pada menu yang sedang dipilih.
-![gambar5](ss/gambar5(output).png)
+![gambarlima](ss/gambar5(output).png)
+## 2.5 Hero panel
+Di dalam <section id="hero"> ditambahkan <h1>Hello World!</h1>, paragraf, dan tombol Learn more. CSS: latar abu-abu 
+#e4e4e5, padding: 50px 20px, serta pengaturan ukuran font dan jarak untuk h1 dan p.
