@@ -2,13 +2,13 @@
 
 Mata Kuliah: Pemrograman Web Nama: Alfi IFtihal Nurul Afiat NIM: 312510041 Kelas: I251D Program Studi: Teknik Informatika, Universitas Pelita Bangsa
 
-Tujuan Praktikum
+# Tujuan Praktikum
 Memahami struktur dasar pembuatan layout.
 Memahami konsep box element.
 Memahami CSS Floating.
 Memahami HTML5 Semantic Element.
 Membuat layout web sederhana.
-Struktur Folder
+# Struktur Folder
 ````
 Lab4Web/
 ├── README.md
