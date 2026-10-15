@@ -156,7 +156,9 @@ Halaman Kontak memakai kerangka yang sama dengan menu **Kontak** sebagai ````act
 |Subjek|````select````|pilihan: Pertanyaan, Saran, Kerja sama, Lainnya|
 |Pesan|````textarea````|wajib diisi|
 |Tombol|````button type="submit"```` dan ````type="reset"````|Kirim dan Reset|
+
 Setiap ````input```` dipasangkan dengan ````<label for="...">```` agar saat label diklik, kolomnya ikut aktif. Styling memakai ````.form-group````, ````.form-control```` (lebar 100%, border, efek ````:focus````), dan ````.btn-primary.```` Sidebar berisi info kontak dan menu cepat.
+
 ![gambarterakhir](ss/gambar_kotak.png)
 ## Kesimpulan
 Semua elemen HTML merupakan box (margin, border, padding, content) yang dapat diatur ukurannya dan posisinya dengan CSS.
