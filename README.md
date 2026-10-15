@@ -60,4 +60,4 @@ css
     float: none;
 }
 ````
-````clear: left```` membuat div4 turun ke bawah elemen yang float ke kiri, sehingga tampil pada baris baru dengan lebar penuh.
+````clear: left```` membuat ````div4```` turun ke bawah elemen yang float ke kiri, sehingga tampil pada baris baru dengan lebar penuh.
