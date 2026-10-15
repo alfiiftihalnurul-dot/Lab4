@@ -70,3 +70,5 @@ css
 # Bagian 2 — Membuat Layout Sederhana (````lab4_layout````)
 ## 2.1 Membuat folder dan file
 Dibuat folder ````lab4_layout```` yang berisi ````home.html```` dan ````style.css````. File home.html memuat kerangka HTML dengan ````<link rel="stylesheet" href="style.css">```` di ````<head>```` dan sebuah ````<div id="container">```` di dalam <body> sebagai pembungkus seluruh halaman.
+## 2.2 Kerangka layout dengan semantic element
+Struktur halaman disusun dengan elemen semantik HTML5:
