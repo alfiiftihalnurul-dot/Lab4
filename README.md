@@ -64,6 +64,6 @@ css
 ## Eksperimen nilai clear lainnya:
 |Nilai |	Hasil yang diamati|
 |:---  |---------------------:|
-left	div4 turun ke bawah div1–div3 (karena semuanya float ke kiri).
-right	Tidak ada pengaruh pada div1–div3 karena mereka float ke kiri, bukan kanan. Latar biru div4 berada di belakang div1–div3 dan teks "Div 4" bergeser ke samping div3.
-both	Sama seperti left: div4 turun ke bawah karena membersihkan float kiri maupun kanan.
+|left  |div4 turun ke bawah div1–div3 (karena semuanya float ke kiri).|
+|right |Tidak ada pengaruh pada div1–div3 karena mereka float ke kiri, bukan |   |      |kanan. Latar biru div4 berada di belakang div1–div3 dan teks "Div 4" |   |      |bergeser ke samping div3.|
+|both  |Sama seperti left: div4 turun ke bawah karena membersihkan float kiri    |      |maupun kanan.
