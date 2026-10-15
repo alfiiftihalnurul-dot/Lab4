@@ -134,3 +134,34 @@ Di dalam ````#main```` ditambahkan ````div.row```` berisi tiga ````div.box````, 
 Ditambahkan dua ````<article class="entry">```` yang dipisah ````<hr class="divider">````. Artikel pertama memiliki gambar di kiri ````(float: left)````, artikel kedua gambar di kanan menggunakan class ````right-img (float: right)````. Gambar di-float agar teks mengalir di sampingnya.
 ![gambar10](ss/gambar10(output).png)
 ![gambar10lg](ss/gambar10lanjutan.png)
+# Bagian 3 — Pertanyaan dan Tugas
+## Tugas 1 — Layout menu About (````about.html````)
+Halaman About memakai kerangka layout yang sama dengan ````home.html```` (header, nav, hero, wrapper, footer) sehingga tampilannya konsisten. Menu **About** diberi ````class="active"````. Isi ````#main``` berupa single layout:
+
+1. **Deskripsi:** foto profil (float kiri), paragraf perkenalan, dan tabel data diri (nama, NIM, kelas, prodi).
+2.**Keahlian:** daftar teknologi dalam bentuk label (````ul.skill-list```` dengan ````li```` berupa ````inline-block````).
+3.**Portfolio:** tiga ````div.box```` (memakai ulang class dari Bagian 2.9) berisi proyek-proyek praktikum.
+
+Sidebar berisi widget menu cepat dan keterangan website. CSS tambahan (````.info-table````, ````.skill-list````) berada di bagian akhir ````style.css````.
+![gambar11](ss/gambarabout.png)
+## Tugas 2 — Layout menu Contact (kontak.html)
+Halaman Kontak memakai kerangka yang sama dengan menu **Kontak** sebagai ````active````. Isi ````#main```` berupa formulir dengan kolom:
+
+|Kolom|	Elemen|	Keterangan|
+|:----|:----|:----|
+|Nama|````input type="text"````|wajib diisi (required)|
+|Email|````input type="email"````|wajib diisi, divalidasi format email oleh browser|
+|No. Telepon|````input type="tel"````|opsional|
+|Subjek|````select````|pilihan: Pertanyaan, Saran, Kerja sama, Lainnya|
+|Pesan|````textarea````|wajib diisi|
+|Tombol|````button type="submit"```` dan ````type="reset"````|Kirim dan Reset|
+Setiap ````input```` dipasangkan dengan ````<label for="...">```` agar saat label diklik, kolomnya ikut aktif. Styling memakai ````.form-group````, ````.form-control```` (lebar 100%, border, efek ````:focus````), dan ````.btn-primary.```` Sidebar berisi info kontak dan menu cepat.
+![gambarterakhir](ss/gambarkotak.png)
+## Kesimpulan
+Semua elemen HTML merupakan box (margin, border, padding, content) yang dapat diatur ukurannya dan posisinya dengan CSS.
+float memungkinkan elemen berdampingan, sedangkan clear (dan teknik clearfix :after) dibutuhkan agar elemen sesudahnya tidak ikut mengambang dan tinggi pembungkusnya tetap benar.
+Semantic element HTML5 (header, nav, section, article, aside, footer) membuat struktur halaman lebih jelas dibaca oleh manusia maupun mesin.
+Dengan satu file style.css yang dipakai bersama, beberapa halaman (Home, About, Kontak) dapat memiliki tampilan yang konsisten.
+## Cara Menjalankan
+
+Buka lab4_layout/home.html di browser. Menu About dan Kontak mengarah ke about.html dan kontak.html pada folder yang sama.
