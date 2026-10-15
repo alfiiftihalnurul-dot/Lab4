@@ -99,9 +99,37 @@ css
 ````nav { display: block; background-color: #1f5faa; }
 nav a { padding: 15px 30px; display: inline-block; color: #fff;
         font-size: 14px; text-decoration: none; font-weight: bold; }
-nav a.active, nav a:hover { background-color: #2b83ea; }````
+nav a.active, nav a:hover { background-color: #2b83ea; }
+````
 Link dibuat inline-block agar tersusun mendatar tetapi tetap bisa diberi padding. Class active dan efek :hover memberi warna lebih terang pada menu yang sedang dipilih.
 ![gambarlima](ss/gambar5(output).png)
 ## 2.5 Hero panel
-Di dalam <section id="hero"> ditambahkan <h1>Hello World!</h1>, paragraf, dan tombol Learn more. CSS: latar abu-abu 
-#e4e4e5, padding: 50px 20px, serta pengaturan ukuran font dan jarak untuk h1 dan p.
+Di dalam ````<section id="hero">```` ditambahkan ````<h1>Hello World!</h1>````, paragraf, dan tombol Learn more. CSS: latar abu-abu 
+````#e4e4e5````, ````padding: 50px 20px````, serta pengaturan ukuran font dan jarak untuk ````h1```` dan ````p````.
+![gambar6](ss/gambar6(output).png)
+## 2.6 Layout main dan sidebar (float)
+css
+````
+#main    { float: left; width: 640px; padding: 20px; }
+#sidebar { float: left; width: 260px; padding: 20px; }
+````
+Kedua area di-float ke kiri sehingga berdampingan. Lebar total = (640 + 40) + (260 + 40) = 980px, sama dengan lebar #container.
+## 2.7 Sidebar widget
+Sidebar diisi dua ````div.widget-box:```` satu berisi daftar link ````(ul)````, satu berisi teks. CSS memberi border tipis, judul berlatar biru 
+````#428bca````, daftar tanpa bullet, dan efek hover pada link.
+![gambar7](ss/gambar7.png)
+## 2.8 Footer
+css
+````footer { clear: both; background-color: #1d1d1d; padding: 20px; color: #eee; }
+````
+````clear: both```` wajib ada agar footer berada di bawah ````#main```` dan ````#sidebar```` yang sama-sama float. Tanpa itu, footer akan naik dan tertimpa kedua area tersebut.
+## 2.9 Elemen pada main content (box)
+Di dalam ````#main```` ditambahkan ````div.row```` berisi tiga ````div.box````, masing-masing memuat gambar bulat, heading, paragraf, dan tombol View detail.
+````.box````` diberi ````float: left```` dan ````width: 33.333333%```` agar menjadi tiga kolom sama lebar. ````box-sizing: border-box```` membuat padding tidak menambah lebar total.
+````.image-circle```` dengan ````border-radius: 50%```` mengubah gambar menjadi lingkaran.
+````.row```` memakai margin negatif ````-10px```` untuk mengimbangi padding ````.box````, ditambah clearfix ````.row:after { clear: both; }```` agar tinggi ````.row```` ikut menyesuaikan isi yang float.
+![gambar9](ss/gambar9(output).png)
+## 2.10 Content artikel
+Ditambahkan dua ````<article class="entry">```` yang dipisah ````<hr class="divider">````. Artikel pertama memiliki gambar di kiri ````(float: left)````, artikel kedua gambar di kanan menggunakan class ````right-img (float: right)````. Gambar di-float agar teks mengalir di sampingnya.
+![gambar10](ss/gambar10(output).png)
+![gambar10lg](ss/gambar10lanjutan.png)
